@@ -39,9 +39,28 @@ From the summary table we see that the varuience is 76.23 psi which does not mee
 
 - Are all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch?
 
-We used the t-test to tested four groups: All three lots together, Lot 1 called pop1, Lot 2 called pop2, and Lot 3 called pop3. Taking account that significance level of 95% we found that all four p-values were greater than .05 which indicates that we fail to reject that there is a statistical difference between all four groups. 
+We used the t-test to tested four groups: All three lots together, Lot 1 called pop1, Lot 2 called pop2, and Lot 3 called pop3. Taking account that significance level of 95% we found that all but one p-values were greater than .05 which indicates that we fail to reject that there is a statistical difference between all four groups. Lot 3 had a a p-value of .04168. 
 
 **Results:**
 
 ![t-test](https://user-images.githubusercontent.com/95899763/163603905-f4b5db2a-ed12-4071-a499-ce1e93067206.PNG)
 
+## Study Design: MechCar vs Competition
+
+Now we want to compare how te MechaCar performs to its competitors. To do this we answer the following questions:
+
+- What metric or metrics are you going to test?
+
+Fuel effiency on the highway vs in the city. 
+
+- What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis would be that all cars in the same class have the same fuel range. The alternative hypothesis is that not all  cars of the same class have the same range.
+
+- What statistical test would you use to test the hypothesis? And why?
+
+To do this test I would use the anova test and would then plotting it with box plots to see the comparision and difference among all ranges and fuel efficiency.
+
+- What data is needed to run the statistical test?
+
+We would need data for 100 different cars showing eachs of their fuel effiency and range. 
