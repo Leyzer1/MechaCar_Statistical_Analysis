@@ -33,3 +33,15 @@ From the summary table we see that the varuience is 76.23 psi which does not mee
 ![total_summary](https://user-images.githubusercontent.com/95899763/163602255-8d4c68d3-1086-4538-b86a-557d8a9b7e11.PNG)
 
 ![Lot_summary](https://user-images.githubusercontent.com/95899763/163602292-127b4fdf-97fa-4532-8791-77048cf8860f.PNG)
+
+
+## T-Tests on Suspension Coils
+
+- Are all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch?
+
+We used the t-test to tested four groups: All three lots together, Lot 1 called pop1, Lot 2 called pop2, and Lot 3 called pop3. Taking account that significance level of 95% we found that all four p-values were greater than .05 which indicates that we fail to reject that there is a statistical difference between all four groups. 
+
+**Results:**
+
+![t-test](https://user-images.githubusercontent.com/95899763/163603905-f4b5db2a-ed12-4071-a499-ce1e93067206.PNG)
+
